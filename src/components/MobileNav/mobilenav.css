@@ -1,0 +1,31 @@
+.mobile-nav-container {
+	height: 64px;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	background: #FFF;
+    color: rgb(43, 52, 69);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px 3px;
+    z-index: 999;
+}
+.mobile-nav-container a span{
+    color: rgb(43, 52, 69);
+    font-size: 13px;
+}
+.mobile-nav-container a i{
+    color: rgb(85, 94, 111);
+}
+
+.mobile-nav-links {
+	display: flex;
+	justify-content: space-around;
+	width: 100vw;
+}
+
+.mobile-nav-link {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5px;
+}

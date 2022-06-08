@@ -1,0 +1,10 @@
+.categories-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -0.6rem;
+}
+
+.categories-gallery-container .flash-sale-heading h2 img{
+    width: 1.25rem;
+    height: 1.25rem;
+}

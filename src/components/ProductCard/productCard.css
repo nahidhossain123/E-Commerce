@@ -1,0 +1,99 @@
+.flash-sale-card{
+    background-color: rgb(255 255 255);
+    box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
+    border-radius: 8px;
+    width: fit-content !important;
+}
+.flash-sale-card:hover .view-love-btn{
+    display: block;
+}
+
+.flash-sale-img{
+    position: relative;
+}
+
+.view-all{
+    font-size: 14px;
+    margin-right: 0.5rem;
+    color: rgb(125, 135, 156);
+}
+.view-all img{
+    margin-left: 0.3rem;
+}
+
+span.offer-token {
+    position: absolute;
+    left: 0;
+    background: var(--bg-red);
+    color: #FFF;
+    font-size: 10px;
+    padding: 5px 10px;
+    border-radius: 300px;
+    top: 10px;
+    left: 10px;
+}
+
+.view-love-btn img {
+    display: block;
+    padding: 3px;
+}
+
+.view-love-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: none;
+}
+
+.product-details{
+    padding: 1rem;
+}
+
+.product-details h3{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: rgb(55, 63, 80);
+    font-weight: 600;
+}
+
+.ratings img{
+    display: inline;
+    height: 16px;
+    width: 16px;
+    margin-right: 0.1rem;
+}
+
+.price-cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price-cart .price .new-price{
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 0.5rem;
+    color: rgb(233, 69, 96);
+}
+.price-cart .price .old-price{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(125, 135, 156);
+    margin-top: 10px;
+}
+.price-cart button {
+    color: rgb(233, 69, 96);
+    border: 1px solid rgb(255, 225, 230);
+    padding: 0 7px 4px 7px;
+    border-radius: 5px;
+    font-size: 23px;
+    background: transparent;
+}
+.price-cart button:hover{
+    background: rgb(233, 69, 96);
+    color: #FFF;
+}
+
+ .flash-sale-img img{
+    width: 100%;
+    height: 100%;
+}

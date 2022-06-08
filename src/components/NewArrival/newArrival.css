@@ -1,0 +1,29 @@
+.new-arrival-container .top-rating{
+    width: 16%;
+}
+
+.new-arrival-container .top-rating-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.new-arrival-container .top-rating-card{
+    width: 100% !important;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:900px) {
+    .new-arrival-container .top-rating{
+        width: 25%;
+    }
+}
+@media screen and (max-width:768px) {
+    .new-arrival-container .top-rating{
+        width: 33.3%;
+    }
+}
+@media screen and (max-width:768px) {
+    .new-arrival-container .top-rating{
+        width: 50%;
+    }
+}

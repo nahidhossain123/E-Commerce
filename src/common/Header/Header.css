@@ -1,0 +1,245 @@
+.head{
+    background: rgb(15, 52, 96);
+    color: #FFF;
+    height: 40px;
+}
+
+.head .phone, .head .email{
+    gap: 10px;
+    font-size: 12px;
+}
+
+.left{
+    gap: 20px;
+}
+
+.right{
+    gap: 30px;
+    font-size: 12px;
+}
+
+.right label:hover{
+    color: var(--hover-color);
+}
+
+.right .select-options span {
+    display: flex;
+    gap: 10px;
+}
+.right .select-options span img{
+    border-radius: 5px;
+}
+.right .selected-value .item{
+    gap: 10px;
+}
+.right .selected-value .item img{
+    border-radius: 4px;
+    height: 14px;
+}
+
+.flag{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.nav-search{
+    background-color: #FFF;
+    position: relative;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 670px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    flex: 1;
+}
+.search input{
+    border-radius: 300px;
+    height: 44px;
+    border: 1px solid rgb(218, 225, 231);  
+    padding-left: 3rem;
+    padding-right: 11.5rem;
+    width: 100%;
+    outline: none;
+}
+.search input:focus{
+    border-color: rgb(233, 69, 96);
+    outline-color: rgb(233, 69, 96);
+    box-shadow: rgba(255, 225, 230, 0.1) 1px 1px 8px 4px;  
+}
+
+.search .category-dropdown,.search > i{
+    position: absolute;
+    right: 0;
+}
+.search > i{
+    left: 1.1rem;
+    color: rgb(125, 135, 156);
+}
+.search .category-select{
+    min-width: 90px;
+    border-left: 1px solid rgb(218, 225, 231);  
+}
+.search .category-select .select-options{
+    right: 0;  
+}
+
+.search .fa-magnifying-glass{
+    width: fit-content;
+}
+
+.search .selected-value .item{
+    gap: 20px;
+}
+
+.search .category-select .selected-value{
+    font-size: 14px;
+    color: rgb(125, 135, 156);
+    height: 44px;
+    display: flex;
+    align-items: center; 
+    padding-right: 1.2rem;
+    padding-left: 1rem;
+    gap: 15px;
+}
+
+.user-cart{
+    display: flex;
+    gap: 1rem;
+}
+.user-cart button{
+    border: none;
+    outline: none;
+    border-radius: 500px;
+    background-color: rgb(243, 245, 249);
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.user-cart button img{
+    width: 32px;
+    height: 28px;
+}
+.user-cart button:last-child img{
+    width: 30px;
+    height: 20px;
+}
+
+.header{
+    align-items: center;
+}
+
+.nav-container{
+    box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.navlink .nav{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.navlink .nav li a{
+    font-size: 14px;
+    color: rgb(43, 52, 69);
+}
+
+
+.nav-dropdown{
+    position: relative;
+}
+.nav-dropdown .items{
+    margin-top: 1.35rem;
+    flex-direction: column;
+    box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
+    border-radius: 8px;
+    background: #FFF;
+    min-width: 230px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+ul li:hover  * .dropdown-items,
+.nav-dropdown .dropdown-items:hover,
+.nav-dropdown .dropdown-items a:hover  + .dropdown-items-items,
+.nav-dropdown .dropdown-items-items:hover{
+    display: flex;
+}
+.nav-dropdown a:hover{
+    color: rgb(233, 69, 96) !important;
+}
+.items a:hover{
+    background: rgb(246, 249, 252);
+}
+.dropdown-items{
+    display: none;
+    position: absolute;
+    min-width: 230px;
+    z-index: 5;
+}
+.dropdown-items a{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+.dropdown-items-items{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    left: 100%;
+    top: 0;
+}
+.dropdown-items-items .items{
+    margin-left: 0.5rem;
+    margin-top: 0;
+}
+.item-container{
+    position: relative;
+}
+
+.dropdown-items-items a{
+    padding: 0.5rem 1rem;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.sticky + .after-sticky{
+    margin-top: 80px;
+}
+
+.logo.mobile_item img{
+    height: 36px;
+}
+
+.search-container .logo{
+    margin-right: 20px;
+    
+}
+.search-container .user-cart{
+    margin-left: 20px;
+}
+
+@media screen and (max-width:900px) {
+    .search input {
+        padding-right: 0; 
+    }
+}
+

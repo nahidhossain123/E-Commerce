@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    background: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.background{
+    background: #f6f9fc;
+    padding: 50px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.d_flex{
+    display: flex;
+    justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.c_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.f_flex{
+    display: flex;
+}
+.center_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+li{
+    list-style: none;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.RText{
+    text-align: right;
+}
+
+main{
+    background: rgb(246, 249, 252);
+}
+
+.margin-bottom{
+    margin-bottom: 3.75rem;
+}
+
+.margin-tittle{
+    margin-bottom: 1rem;
+}
+
+.padding-bottom{
+    padding-bottom: 3.75rem;
+}
+
+.top-rating-feature{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.single-category {
+    display: flex;
+    gap: 30px;
+}
+
+
+@media screen and (max-width:900px) {
+    .desktop_item{
+        display: none !important;
+    }
+    .mobile_item{
+        display: block !important;
+    }
+}
+@media screen and (min-width:900px) {
+    .mobile_item{
+        display: none !important;
+    }
+}
+

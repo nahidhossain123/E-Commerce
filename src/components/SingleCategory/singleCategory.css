@@ -1,0 +1,41 @@
+.product-gellary {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.single-category-container .flash-sale-card{
+    width: 31.33% !important;
+}
+
+.single-category-container .flash-sale-img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width:1000px) {
+    .single-category-container .flash-sale-card {
+        width: 30.33% !important;
+    }
+}
+@media screen and (max-width:900px) {
+    .single-category-container .flash-sale-card {
+        width: 31.33% !important;
+    }
+}
+@media screen and (max-width:800px) {
+    .single-category-container .flash-sale-card {
+        width: 31% !important;
+    }
+}
+@media screen and (max-width:700px) {
+    .single-category-container .flash-sale-card {
+        width: 48% !important;
+    }
+}
+@media screen and (max-width:500px) {
+    .single-category-container .flash-sale-card {
+        width: 100% !important;
+    }
+}

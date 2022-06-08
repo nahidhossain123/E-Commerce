@@ -1,0 +1,29 @@
+.big-discount-card{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
+    border-radius: 8px;
+    padding: 1rem;
+    width: fit-content !important;
+    margin: 10px;
+}
+.card-image img{
+    width: 100%;
+}
+
+.big-discount-card .title{
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 0.25rem;
+    display: block;
+}
+.big-discount-card .price .new-price{
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 0.5rem;
+    color: rgb(233, 69, 96);
+}
+.big-discount-card .price .old-price{
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(125, 135, 156);
+}
