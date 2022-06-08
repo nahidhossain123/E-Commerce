@@ -70,8 +70,8 @@ const CatGellery = () => {
   return (
     <div className='categories-gallery-container container margin-bottom'>
         <div className='flash-sale-heading margin-tittle'>
-          <h2><img src={dashboard_icon}/>Flash Deals</h2>
-          <span className='view-all'>View All<img src={right_arrow}/></span>
+          <h2><img src={dashboard_icon} alt="icon" />Flash Deals</h2>
+          <span className='view-all'>View All<img src={right_arrow} alt="icon" /></span>
         </div>
         <div className='categories-gallery'>
         {
