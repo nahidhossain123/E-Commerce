@@ -53,10 +53,10 @@ const Search = () => {
           </div>
         </div>
         <div className='user-cart desktop_item'>
-          <button><img src={user}/></button>
+          <button><img src={user} alt="user"/></button>
           <button>
             <div className='cart-container'>
-              <img src={cart}/>
+              <img src={cart} alt="cart"/>
               <span className='cart-count'>0</span>
             </div>
           </button>

@@ -13,8 +13,8 @@ const TopRatings = () => {
   return (
     <div className='flash-sale-container'>
       <div className='flash-sale-heading margin-tittle'>
-        <h2><img src={top_rated}/>Top Ratings</h2>
-        <span className='view-all'>View All<img src={right_arrow}/></span>
+        <h2><img src={top_rated} alt="top rated" />Top Ratings</h2>
+        <span className='view-all'>View All<img src={right_arrow} alt="right arrow" /></span>
       </div>
       <div className='top-rating-card'>
         <div className='top-rating'>

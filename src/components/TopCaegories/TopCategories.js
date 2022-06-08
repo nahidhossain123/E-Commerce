@@ -65,8 +65,8 @@ const TopCategories = () => {
   return (
     <div className='top-categories-container container margin-bottom'>
       <div className='flash-sale-heading margin-tittle'>
-        <h2><img className='title-img' src={dashboard_icon}/>Top Categories</h2>
-        <span className='view-all'>View All<img src={right_arrow}/></span>
+        <h2><img className='title-img' src={dashboard_icon} alt="dashboard icon" />Top Categories</h2>
+        <span className='view-all'>View All<img src={right_arrow} alt="right arrow" /></span>
       </div>
       
       <Slider {...settings}>

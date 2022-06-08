@@ -59,7 +59,7 @@ const MoreProducts = () => {
     <div className='more-products-gallery-container container margin-bottom'>
         <div className='flash-sale-heading margin-tittle'>
           <h2>More For You</h2>
-          <span className='view-all'>View All<img src={right_arrow}/></span>
+          <span className='view-all'>View All<img src={right_arrow} alt="right arrow" /></span>
         </div>
         <div className='more-product-gallery'>
             {

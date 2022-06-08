@@ -89,7 +89,7 @@ const CategoryDrop = () => {
                             </div>
                             <a className='offer-link' href='#!'>
                             <div className='sub-category-offer'>
-                                <img src={offer1}/>
+                                <img src={offer1} alt="subcat" />
                             </div>
                             </a>
                         </div>
@@ -159,7 +159,7 @@ const CategoryDrop = () => {
                             </div>
                             <a className='offer-link' href='#!'>
                             <div className='sub-category-offer'>
-                                <img src={offer2}/>
+                                <img src={offer2} alt="offer" />
                             </div>
                             </a>
                         </div>
@@ -232,7 +232,7 @@ const CategoryDrop = () => {
                                     </div>
                                     <a className='offer-link' href='#!'>
                                     <div className='sub-category-offer'>
-                                        <img src={offer2}/>
+                                        <img src={offer2} alt="offer" />
                                     </div>
                                     </a>
                                 </div>

@@ -7,7 +7,7 @@ const MobileNav = () => {
   return (
     <div className='mobile-nav-container'>
         <div className='mobile-nav-links'>
-            <Link to='#!' className='mobile-nav-link'>
+            <Link to='#!' className='mobile-nav-link mobile-link-active'>
                 <i class="fa-solid fa-house"></i>
                 <span to='#!'>Home</span>
             </Link>

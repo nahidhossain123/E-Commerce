@@ -14,8 +14,8 @@ const NewArrivals = () => {
   return (
     <div className='new-arrival-container container margin-bottom'>
       <div className='flash-sale-heading margin-tittle'>
-        <h2><img src={new_arrivals}/>New Arrivals</h2>
-        <span className='view-all'>View All<img src={right_arrow}/></span>
+        <h2><img src={new_arrivals} alt="new Arrivals" />New Arrivals</h2>
+        <span className='view-all'>View All<img src={right_arrow} alt="right arrow" /></span>
       </div>
       <div className='top-rating-card'>
         <div className='top-rating'>

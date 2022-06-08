@@ -60,7 +60,7 @@ const SingleCategory = ({title}) => {
     <div className='single-category-container'>
         <div className='flash-sale-heading margin-tittle'>
           <h2>{title}</h2>
-          <span className='view-all'>View All<img src={right_arrow}/></span>
+          <span className='view-all'>View All<img src={right_arrow} alt="right arrow" /></span>
         </div>
       <div className='product-gellary'>
         {

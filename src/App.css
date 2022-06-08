@@ -18,7 +18,7 @@ body{
 
 .container{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1232px;
     margin: auto;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -87,6 +87,13 @@ main{
 .single-category {
     display: flex;
     gap: 30px;
+}
+
+.comming{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 

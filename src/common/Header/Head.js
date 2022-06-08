@@ -5,7 +5,6 @@ import ukflag from '../../Img/uk.png';
 import bdflag from '../../Img/bd.png';
 import inflag from '../../Img/in.png';
 import logo from '../../Img/logo.svg';
-import {phone, envelope, down_arrow, search, user, cart_bag, category_icon} from './import';
 
 const Head = () => {
     const language =[

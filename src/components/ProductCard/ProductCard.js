@@ -13,18 +13,18 @@ const ProductCard = ({title,img,discount,old_price,new_price}) => {
             <img src={img} alt="flash-img"/>
             <span className='offer-token'> {discount} % off</span>
             <div className='view-love-btn'>
-            <img src={eye}/>
-            <img src={heart}/>
+            <img src={eye} alt="eye" />
+            <img src={heart} alt="heart-icon" />
             </div>
         </div>
         <div className='product-details'>
             <h3>{title}</h3>
             <div className='ratings'>
-            <img src={star_fill}/>
-            <img src={star_fill}/>
-            <img src={star_fill}/>
-            <img src={star_fill}/>
-            <img src={star}/>
+            <img src={star_fill} alt="star" />
+            <img src={star_fill} alt="star" />
+            <img src={star_fill} alt="star" />
+            <img src={star_fill} alt="star" />
+            <img src={star} alt="star" />
             </div>
             <div className='price-cart'>
             <div className='price'>

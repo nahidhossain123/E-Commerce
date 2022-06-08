@@ -1,4 +1,4 @@
-import React,{Component} from 'react';
+import React from 'react';
 import './heroSlider.css';
 import apple_watch from '../../Img/apple-watch-0.png';
 import "slick-carousel/slick/slick.css"; 

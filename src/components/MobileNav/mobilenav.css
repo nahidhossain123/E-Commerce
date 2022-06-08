@@ -15,6 +15,12 @@
 }
 .mobile-nav-container a i{
     color: rgb(85, 94, 111);
+	font-size: 18px;
+}
+
+.mobile-link-active i,
+.mobile-link-active span {
+	color: rgb(233, 69, 96) !important;
 }
 
 .mobile-nav-links {
