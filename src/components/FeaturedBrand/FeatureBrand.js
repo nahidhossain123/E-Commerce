@@ -9,8 +9,8 @@ const FeatureBrand = () => {
   return (
     <div className='flash-sale-container'>
       <div className='flash-sale-heading margin-tittle'>
-        <h2><img src={featured}/>Top Ratings</h2>
-        <span className='view-all'>View All<img src={right_arrow}/></span>
+        <h2><img src={featured} alt='icon' />Top Ratings</h2>
+        <span className='view-all'>View All<img src={right_arrow} alt="arrow-icon" /></span>
       </div>
       <div className='top-rating-card'>
         <div className='top-rating'>
@@ -21,7 +21,7 @@ const FeatureBrand = () => {
         </div>
         <div className='top-rating'>
             <div className='top-rating-img'>
-                <img src={jim_jago} alt="top-rating"/>
+                <img src={jim_jago} alt="rating"/>
             </div>
             <span className='title'>Jaim & Jago</span>
         </div>
